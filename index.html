@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="parentElement">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Game 1</title>
+</head>
+<body>
+    <h1>PIEDRA,PAPEL Y TIJERA
+        SOFI LLORONA!
+    </h1>
+    <div class="main-container">
+
+        <div class="score-container">
+            <p>Player: <span id="scorePlayerText"></span></p>
+            <p>Skinet: <span id="scoreMachineText"></span></p>
+        </div>
+
+        <div class="figth-container">
+            <div>
+                <img src="img/none.svg" id="playerImg">
+            </div>
+            <div>
+                <img src="img/none.svg" id="MachineImg">
+            </div>
+        </div>
+
+        <div class="fight-result">
+            <p id="fightText">Texto</p>
+        </div>
+
+        <div class="info">
+            Elige tu ataque!
+        </div>
+
+        <div class="group-btn">
+
+            <button id="rock-btn">
+                <img src="img/rock.svg">
+            </button>
+
+            <button id="paper-btn">
+                <img src="img/paper.svg">
+            </button>
+
+            <button id="scissor-btn">
+                <img src="img/scissors.svg">
+            </button>
+
+        </div>
+
+        <div class="final" id="final">
+            <p id="finalText">TEXTO!!!</p>
+            <p id="text1"></p>
+            <p id="text2"></p>
+            <button id="newGameBtn">Reintentar!</button>
+            <p>Juego programado por daniel da costa beyuma!!!</p>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
